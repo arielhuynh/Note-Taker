@@ -1,14 +1,24 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "In this unit, we will create our own server-side APIs using the Express.js framework. Express is the most widely used Node.js server framework. It will allow us to quickly and easily establish our API routes and associated HTTP request methods.\r Routing is how we design our server to handle responses when a client makes a request at a specific endpoint, or URL. We learned how to make GET requests from the client-side in a previous unit. Now we will learn how those requests are handled on the server-side. Our server will listen for a specific type of request at a specific endpoint and when it hears that request, it will respond accordingly.\r We will also learn the HTTP POST request method to submit data to our server.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arielhuynh/Note-Taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arielhuynh/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/arielhuynh/Note-Taker#readme"
 }
